@@ -1,0 +1,37 @@
+Student Data of BS-IT 1A
+03-135211-001           |       Abdullah Basharat
+03-135211-002           |       Abdul Rehman
+03-135211-003           |       Adil Ejaz
+03-135211-004           |       Ahsan Ali
+03-135211-005           |       Ali Hassan
+03-135211-006           |       Ali Raza
+03-135211-007           |       Asim Qaisar
+03-135211-008           |       Esha Faheem
+03-135211-009           |       Faisal Naeem
+03-135211-010           |       Hassan Ali Karamat
+03-135211-011           |       Hassan Yousaf
+03-135211-012           |       Khuzaima Mohsin
+03-135211-013           |       Muhammad Abdullah Awan
+03-135211-014           |       Muhammad Nasr
+03-135211-015           |       Muntaha Riaz
+03-135211-016           |       Roha Mubeen
+03-135211-017           |       Saad Bin Shabbir
+03-135211-018           |       Saba Gul
+03-135211-019           |       Salman Abid
+03-135211-020           |       Sheikh Saqib Hussain
+03-135211-021           |       Syed Muhammad Wajeeh Haider
+03-135211-022           |       Umair Saleem
+03-135211-023           |       Zain Ahmed
+03-135211-024           |       Muhammad Habib Ullah
+03-135211-025           |       Sher Afghan Bajwa
+03-135211-026           |       Muhammad Shahzeb Akhtar
+03-135211-027           |       Abdullah Mehboob
+03-135211-028           |       Fatima Babar Chathah
+03-135211-029           |       Haseeb Salman Khan
+03-135211-030           |       Muhammad Kamal Ahmad Rana
+03-135211-031           |       Muhammad Umair Khan
+03-135211-032           |       Rana Muhammad Ali Hassan
+03-135211-033           |       Salman Dinar
+03-135211-034           |       Syed Abdul Manan
+03-135211-035           |       Fawad Ali
+03-135211-036           |       Haseebullah Amanat
