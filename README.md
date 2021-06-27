@@ -1,7 +1,4 @@
 # school-management-system
 A group project which we made in C++ for our First Semester Finals.
-The program provides the following functionalities:
-    1. Display Student Data
-    2. Add a new student
-    3. Fee Calculator
+The program provides functionalities like displaying the Student data (enrollment number and name), adding a new student and saving it to the file and a fee calculator.
 A main menu is displayed from where the user can navigate the program.
