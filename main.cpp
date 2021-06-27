@@ -3,6 +3,7 @@
 // Project Name: School Management System
 // Class: BS-IT 1A
 // Team Members: Salman Abid, Ahsan, Zain
+
 #include <iostream>
 #include <conio.h>
 #include <fstream>
@@ -10,10 +11,10 @@ using namespace std;
 
 
 // Function Prototypes
-void main_menu();
 void student_data();
 void new_student();
 void fee_calculator();
+void check_grade();
 
 // Structure to store New Student's Details
 struct student_details
@@ -24,11 +25,11 @@ struct student_details
 int main()
 {
     int choice;
-    while(choice != 4)
+    while(choice != 5)
     {
         cout << "\t\t\tWelcome to Bahria University IT Department\n";
         cout << "\nMenu:\n\n";
-        cout << "1. Show Records\n2. Add a New Student\n3. Fee Calculator\n4. Exit\n";
+        cout << "1. Show Records\n2. Add a New Student\n3. Fee Calculator\n4. Check Grades\n5. Exit\n";
         cout << "Enter your choice\n";
         cin >> choice;
         
@@ -56,6 +57,13 @@ int main()
             }
 
             case 4:
+            {
+                check_grade();
+
+                break;
+            }
+
+            case 5:
             {
                 break;
             }
@@ -87,6 +95,43 @@ void fee_calculator()
 
     cout << "Your fee for this semester would be = " << total_fee << "\n";
     
+    cout << "Press any key to jump to main menu\n";
+    getch();
+    system("cls");
+}
+
+void check_grade()
+{
+    system("cls");
+    int marks;
+    cout << "Enter your marks\n";
+    cin >> marks;
+
+    if (marks >= 85 && marks <= 100)
+    {
+        cout << "Congratulations!!! You scored an A+\n";
+    }
+    else if (marks >= 75 && marks <= 84)
+    {
+        cout << "You scored a B+\n";
+    }
+    else if (marks >= 65 && marks <= 74)
+    {
+        cout << "You scored a B\n";
+    }
+    else if (marks >= 55 && marks <= 64)
+    {
+        cout << "You Scored a C, Please focus on your studies\n";
+    }
+    else if(marks < 55)
+    {
+        cout << "It's an F, Better luck next time\n";
+    }
+    else
+    {
+        cout << "Invalid Input\n";
+    }
+
     cout << "Press any key to jump to main menu\n";
     getch();
     system("cls");
