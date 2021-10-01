@@ -25,6 +25,7 @@ struct student_details
 int main()
 {
     int choice;
+    // Main Menu of the Program
     while(choice != 5)
     {
         cout << "\t\t\tWelcome to Bahria University IT Department\n";
